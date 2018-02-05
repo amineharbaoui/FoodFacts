@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#3F51B5</color>
+
+
+    <color name="gren">#427e05</color>
+    <color name="gray50">#FAFAFA</color>
+    <color name="gray100">#F5F5F5</color>
+    <color name="gray200">#EEEEEE</color>
+    <color name="gray300">#E0E0E0</color>
+    <color name="gray400">#BDBDBD</color>
+    <color name="gray500">#9E9E9E</color>
+    <color name="gray600">#757575</color>
+    <color name="gray700">#616161</color>
+    <color name="gray800">#424242</color>
+    <color name="gray900">#212121</color>
+
+
+    <color name="nutriscoreA">#038141</color>
+    <color name="nutriscoreB">#85BB2F</color>
+    <color name="nutriscoreC">#FECB02</color>
+    <color name="nutriscoreD">#EE8100</color>
+    <color name="nutriscoreE">#E63E11</color>
+
+    <color name="black_overlay">#66000000</color>
+
+
+</resources>

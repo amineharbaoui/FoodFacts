@@ -1,0 +1,52 @@
+<resources>
+
+    <string name="app_name">FoodFacts</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="background">background</string>
+    <string name="search_by_barcode">Search by barcode</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="product_not_found">Product not found</string>
+    <string name="product_name">Product Name</string>
+
+
+    <string name="txtGenericName">Common name</string>
+    <string name="txtQuantity">Quantity</string>
+    <string name="txtPackaging">Packaging</string>
+    <string name="txtBrands">Brands</string>
+    <string name="txtCategories">Categories</string>
+    <string name="txtLabels">Labels, certifications, awards</string>
+    <string name="txtManufacturingPlaces">Manufacturing or processing places</string>
+    <string name="txtLink">Link to the product</string>
+    <string name="txtCountries">Countries where sold</string>
+
+    <string name="txtIngredients">Ingredients list</string>
+    <string name="txtSubstances">Substances or products causing allergies or intolerances</string>
+    <string name="txtAdditives">Additives</string>
+    <string name="txtTraces">Traces</string>
+
+    <string name="txtHeader1">Nutrition facts</string>
+    <string name="txtHeader2">For 100g/100ml</string>
+    <string name="txtHeader3">Per serving</string>
+
+    <string name="txtEnergy">Energy</string>
+    <string name="txtfat">Fat</string>
+    <string name="txtSaturedfat">Satured fat</string>
+    <string name="txtCarbohydrate">Carbohydrate</string>
+    <string name="txtSugars">Sugars</string>
+    <string name="txtDietaryFiber">Dietary fiber</string>
+    <string name="txtProteins">Proteins</string>
+    <string name="txtSalt">Salt</string>
+    <string name="txtSodium">Sodium</string>
+
+    <string name="txtServingSize">Serving Size</string>
+    <string name="txtWarning">Warning: the amount of fruits, vegetable and nuts is not specified, their possible positive contribution to the grade could not be taken into account.</string>
+    <string name="txtTransFat">Trans fat</string>
+    <string name="txtCholesterol">Cholesterol</string>
+    <string name="history">History</string>
+
+
+</resources>

@@ -1,0 +1,138 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:fillViewport="true"
+    tools:context="foodfacts.harbaoui.com.foodfacts.detailproduct.NutritionScoreLevelFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <ImageView
+            android:id="@+id/iv_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/tv_warning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="25dp"
+            android:textIsSelectable="true"
+            android:textSize="@dimen/text_size_snormal" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp">
+
+            <ImageView
+                android:id="@+id/iv_fat"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@android:color/transparent" />
+
+            <TextView
+                android:id="@+id/tv_fat"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/text_size_xnormal" />
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="5dp">
+
+            <ImageView
+                android:id="@+id/iv_saturated_fat"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@android:color/transparent" />
+
+            <TextView
+                android:id="@+id/tv_saturated_fat"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/text_size_xnormal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="5dp">
+
+            <ImageView
+                android:id="@+id/iv_sugars"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@android:color/transparent" />
+
+            <TextView
+                android:id="@+id/tv_sugars"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/text_size_xnormal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="5dp">
+
+            <ImageView
+                android:id="@+id/iv_salt"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@android:color/transparent" />
+
+            <TextView
+                android:id="@+id/tv_salt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/text_size_xnormal" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_serving_size"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:textIsSelectable="true"
+            android:textSize="@dimen/text_size_xnormal" />
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

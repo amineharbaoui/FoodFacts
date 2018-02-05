@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context="foodfacts.harbaoui.com.foodfacts.detailproduct.NutritionFactsTableFragment">
+
+    <ImageView
+        android:id="@+id/iv_nutrition_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:maxHeight="300dp"
+        android:scaleType="centerInside"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingRight="25dp"
+        android:paddingLeft="25dp"
+        android:background="@android:color/white">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:textSize="@dimen/text_size_xnormal"
+            android:textStyle="bold"
+            android:text="@string/txtHeader1"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:textStyle="bold"
+
+            android:textSize="@dimen/text_size_xnormal"
+            android:text="@string/txtHeader2"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:gravity="right"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_size_xnormal"
+            android:text="@string/txtHeader3"/>
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_nutrition_facts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/white"
+        android:background="@drawable/rouned"
+        android:padding="25dp">
+    </ListView>
+
+</LinearLayout>
